@@ -1,0 +1,115 @@
+.nn{
+    position:sticky;
+    top: 0;
+    background-color: transparent;
+    z-index: 999;
+}
+
+.active{
+    background-color: white;
+}
+.containerh{
+    width: 100%;
+}
+
+.col1{
+    display: flex;
+}
+
+#baricon{
+    visibility: hidden;
+    margin-top: 22px;
+    height: 25px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.disactive{
+    display: none;
+
+}
+.logo{
+    cursor: pointer;
+    display: flex;
+    margin-top: 21px;
+    margin-left: -10px;
+}
+
+.logo img{
+    height: 26px;
+}
+
+.dot{
+    width: 8px;
+    height: 8px;
+    border-radius: 50px;
+    background-color: green;
+    margin-top: 20px;
+}
+.searchbarhide{
+    display: none;
+}
+
+.searchlogo{
+    position: absolute;
+    margin-top: 4px;
+    width: 18px;
+    margin-left: 7px;
+}
+.btn{
+    background-color: rgb(13,150,81);
+    color: white;
+    height: 38px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    padding: 0px 16px;
+    border-radius: 0 4px 4px 0;
+}
+.nvegation{
+    margin-top:26px;
+}
+ul{
+    display:flex;
+    margin-top: 13px;
+    list-style: none;
+}
+
+ul li{
+    padding-left: 14px;
+    margin-left: 9px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight:600 ;
+    font-family:"Helvetica";
+}
+
+.linkcolor{
+    color: #62646a
+}
+
+.disactivecolor{
+    color: white;
+}
+
+ul li .global{
+    padding: 10px;
+}
+
+.singleli{
+    font-weight: 700;
+    font-family: Arial,Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.singleli:hover {
+    color: #1dbf73;
+    text-decoration:none;
+
+}
+
+.bli{
+    margin-top: -6px;
+}
