@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 
-const patientSchema = mongoose.Schema({
+const userSchema = mongoose.Schema({
     name: {
         type : String,
         required: true,
@@ -23,6 +23,6 @@ const patientSchema = mongoose.Schema({
 
 })
 
-const Patient = mongoose.model('Patient',patientSchema);
+const UserModel = mongoose.model('Patient',userSchema);
 
 export default Patient
