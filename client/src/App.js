@@ -1,16 +1,15 @@
 import React from 'react'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Home from './pages/home.js';
-import {browserRouter as Router, Switch, Route } from 'react-router-dom'
+import Home from './pages/home';
+// import header from './components/header.js';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 function App() {
     return (
         <div>
-            <Router>
-                <Switch>
-                    <Route exact path='/' component={Home} />
-                </Switch>
-            </Router>
+            <Routes>
+                    <Route  path='/' element={<Home/>} />      
+            </Routes>
             <h1>CliniCare</h1>
         </div>
     );

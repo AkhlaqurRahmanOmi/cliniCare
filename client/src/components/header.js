@@ -12,7 +12,7 @@ const Header = ()  => {
             setNavbar(true);
         }
         else{
-            setNavbar(flase);
+            setNavbar(false);
         }
     };
 window.addEventListener('scroll', changeBackground);
